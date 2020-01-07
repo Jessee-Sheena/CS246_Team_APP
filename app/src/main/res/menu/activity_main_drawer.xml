@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/pointsOverview"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Points Overview" />
+        <item
+            android:id="@+id/create_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Create Notification" />
+
+        <item
+            android:id="@+id/create_task"
+            android:icon="@drawable/ic_add"
+            android:title="Create Task" />
+        <item
+            android:id="@+id/goals"
+            android:icon="@drawable/ic_goal_progress"
+            android:title="Goals" />
+        <item
+            android:id="@+id/ToDo"
+            android:icon="@drawable/ic_todo_progress"
+            android:title="To Do" />
+        <item
+            android:id="@+id/create_reward"
+            android:icon="@drawable/ic_add"
+            android:title="Create Reward" />
+        <item
+            android:id="@+id/rewards"
+            android:icon="@drawable/ic_reward"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/border"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>

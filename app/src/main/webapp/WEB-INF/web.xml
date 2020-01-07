@@ -1,0 +1,8 @@
+<init-param>
+    <param-name>credential</param-name>
+    <param-value>/WEB-INF/lifeorientedlist-3a313f2ce0f9.json</param-value>
+</init-param>
+<init-param>
+<param-name>databaseUrl</param-name>
+<param-value>https://lifeorientedlist.firebaseio.com/</param-value>
+</init-param>

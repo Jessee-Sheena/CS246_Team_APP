@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/VARIABLE_fragment_goal_overview_goalName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/lorem[4]" />
+
+    <View
+        android:id="@+id/hr_rule_create2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VARIABLE_fragment_goal_overview_goalName" />
+
+    <TextView
+        android:id="@+id/fragment_goal_overview_goalDateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/dateCreated"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hr_rule_create2" />
+
+    <TextView
+        android:id="@+id/VARIABLE_fragment_goal_overview_goalDateCreated"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fragment_goal_overview_goalDateCreated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fragment_goal_overview_goalDateCreated"
+        tools:text="@string/never" />
+
+    <TextView
+        android:id="@+id/fragment_goal_overview_goalDateDue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dateDue"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/fragment_goal_overview_goalDateCreated"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_goal_overview_goalDateCreated"
+        tools:text="@string/dateDue" />
+
+    <TextView
+        android:id="@+id/VARIABLE_fragment_goal_overview_goalDateDue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fragment_goal_overview_goalDateDue"
+        app:layout_constraintEnd_toEndOf="@+id/VARIABLE_fragment_goal_overview_goalDateCreated"
+        app:layout_constraintStart_toStartOf="@+id/VARIABLE_fragment_goal_overview_goalDateCreated"
+        tools:text="@string/never" />
+
+    <TextView
+        android:id="@+id/fragment_goal_overview_goalPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pointsForCompletion"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/fragment_goal_overview_goalDateCreated"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_goal_overview_goalDateDue" />
+
+    <TextView
+        android:id="@+id/VARIABLE_fragment_goal_overview_goalPoints"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fragment_goal_overview_goalPoints"
+        app:layout_constraintEnd_toEndOf="@+id/VARIABLE_fragment_goal_overview_goalDateCreated"
+        app:layout_constraintStart_toStartOf="@+id/VARIABLE_fragment_goal_overview_goalDateDue"
+        tools:text="0" />
+
+    <Button
+        android:id="@+id/BUTTON_fragment_goal_overview_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_goal_overview_goalPoints" />
+
+</android.support.constraint.ConstraintLayout>

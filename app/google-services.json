@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558459602632",
+    "firebase_url": "https://lifeorientedlist.firebaseio.com",
+    "project_id": "lifeorientedlist",
+    "storage_bucket": "lifeorientedlist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558459602632:android:897a9a177f56f2da",
+        "android_client_info": {
+          "package_name": "com.team10.lifeorientedlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558459602632-lf2qja97dpvpqrk4tmftkh24gccndvq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team10.lifeorientedlist",
+            "certificate_hash": "f614a42d02b44c6e79e9d1c2d28561bc0ba6be6a"
+          }
+        },
+        {
+          "client_id": "558459602632-j0pful2ef277k3pr7vkoait9io09kn4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHte18rKLPJy7xh3QycrcSjP1nXUD9VNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558459602632-j0pful2ef277k3pr7vkoait9io09kn4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lifeorientedlist",
+  "private_key_id": "3a313f2ce0f9bc569490c30ea60934fc9b8d1323",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1/Jto0Xlg2jac\n98AMx3It+hihcsRk1GoQcA+4rEZ3/bReuh8duLDWdfyDd2OO7/ZUc8rA2ibydALj\nnmvNKYJSm7cJzvjpcTVIE+XVZYc9rnceTMneQymHDbxQgJlXcVFSVQ5z1hs2Cn7o\nidp5ZGbkttNsKdNzQkO0vK3zIad2UFNzmz62XbHKmVTEQMfjfJec8BhF8pHRzlj2\nLpTWsIZxcYHPGV6v38gq+9+SKEbYxnvCKGd0FzQw91RoLyThr7RRuf5z5FA8wTsv\nnMi03etvVg29qNY8JY6lpYRb9x8i1ungGfBWT4qmoOF2yTLVW40CsEK1k+ZZ9mXy\nHzSK99DXAgMBAAECggEAUMnWneYcGZxVkUJErgeeTv3PEGD4AYDwouJ0gDluQRdO\nCp1aceHLEzGmiyAlgM9TDbOnpwxRLOHGZJCv75CFS7HXxFFu24cHrbszlROwwXeh\nZsCU/wfWuB8nYZ9tM03ZWZDrzQ2X39ox8347EBe7u73TxpkcxvZ8QxBdsmjWxCTt\nqY4zskuGRH5lw3tv6ilKQTn3nbMJ+w6bQqodL/ZI1Jy6DgNx6FGMV1wMwW8vI+Ln\nkxSMLfPesOpmZ3GVK435KzoJMXuRL6f0HTh4OTCxdK8CJOWJMTPS8o3aJ2KzS1lp\nD/BYd16yM3BryUCsg8kk/ahWL6wbQVm1TSlq6DR20QKBgQDkqgJmPhlYi8xeoGp3\n3JzjbwaCatqqK6NskCt1gxmBLn27gSOjfwXQ65YpmRQIO2FhxXUcz8Zfiti6lakY\nG+RDYZg16AewPtLI3Zj+eGlDNWigMShCwGhBvhbjNhd/Zg1PwODqqsB3IpbVqyEl\n6MkMAzJI+UWLBEFOOgUk94ph0QKBgQDLvhfgrfL1r7lS4oFvr4Eu8iRNzm8xB4D7\nO0jIXPqbhbK892kqGAU66zh22PeE1hsA75WEYv+smeWI/seHPAmMaEvyDnUeSPzN\n9DFCq2xgM42AGTIbunOKJwy2LQzyeL3KNORBd70nF8Spir2Wr1vwAZr86FkVaqZc\nhphxgXTKJwKBgH7Vzn7n8ycqZDIYyPWzaVK+Qt4UZzX8/qk5TuHf1kXRg+x9tUb7\nLj60bpakUng+d8XDwTI6Dc7xNUZJvYGh9vtpJwS/r4QTVNgWEscUA09EUMSKf8qG\n702IIynk1yPTd47Fbfy8ugVbKk9anQhqFxqSq1HO8sQpmA/MHw5iQGABAoGAMEYS\nEkIk1uGT33ebg4Lp8N2ejHDlF5DXlq8tR4wANOkwuGVGnZqjYppo/n/Z5bd1Hnul\nyYBLY/Hy2MrFK92lxYbQt8GFLm/Mtl+tbEaBnymX1Uoi/T7oMUufT2rNLoY9MbPm\ngTyFrMWM6z7cPN+/wNYgitvif5iNYk7hv8MUkPECgYEAppQvYEVsIjh/bw33ZYTv\nwTqdt4kLXmWkBFzGLq1USrWcC5D2gGbWO69F23RfcDRl2/37mWo8xBmJrA+JMk3C\nZAWYHEeMSIWnL+2Nii76JSn/Q8E6oJumW+VLLjoDQU8Flv44lizA9rwT17dZDD+B\ncaWbmpN1gRB9dlBJDt1SqCM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lifeorientedlist-servlet@lifeorientedlist.iam.gserviceaccount.com",
+  "client_id": "117178903647537473823",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lifeorientedlist-servlet%40lifeorientedlist.iam.gserviceaccount.com"
+}

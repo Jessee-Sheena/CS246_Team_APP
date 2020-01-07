@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="end"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+  <android.support.constraint.ConstraintLayout
+      android:id="@+id/constraintLayout"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/BUTTON_recyclerDone"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:layout_conversion_absoluteHeight="54dp"
+      tools:layout_conversion_absoluteWidth="395dp">
+
+    <TextView
+        android:id="@+id/recyclerTimeCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/11/1111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recyclerTaskName"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerTaskName"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="75dp" />
+
+    <TextView
+        android:id="@+id/recyclerTaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="288dp"
+        tools:text="@tools:sample/lorem[4]" />
+
+    <TextView
+        android:id="@+id/recyclerTimeDue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="00/00/0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/recyclerTaskName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="75dp" />
+
+    <TextView
+        android:id="@+id/recyclerPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/recyclerTimeCreated"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_conversion_absoluteHeight="19dp"
+        tools:layout_conversion_absoluteWidth="8dp"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="39dp" />
+  </android.support.constraint.ConstraintLayout>
+
+  <Button
+      android:id="@+id/BUTTON_recyclerDone"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:background="@drawable/red_checkmark"
+      android:textAllCaps="false"
+      android:textSize="10sp"
+      app:layout_constraintBaseline_toBaselineOf="@+id/constraintLayout"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
